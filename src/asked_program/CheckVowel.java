@@ -5,6 +5,7 @@ public class CheckVowel {
      String str = "Sainathhiwale";
      int count = checkVowelCount(str);
         System.out.println(count);
+
     }
 
     private static int checkVowelCount(String str) {
