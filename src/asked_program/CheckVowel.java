@@ -10,8 +10,8 @@ public class CheckVowel {
     private static int checkVowelCount(String str) {
         int count =0;
         char [] ch = str.toCharArray();
-        for(int i=0;i<ch.length;i++){
-            if (ch[i] == 'a' || ch[i]== 'e' || ch[i]== 'i' || ch[i]== 'o' || ch[i]=='u'){
+        for (char c : ch) {
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
                 count++;
             }
         }
