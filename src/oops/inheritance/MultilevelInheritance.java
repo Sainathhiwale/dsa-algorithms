@@ -1,5 +1,6 @@
 package oops.inheritance;
 //grandparent class
+//When there is a chain of inheritance, it is known as multilevel inheritance.
 class Vehicle{
     public void startEngine() {
         System.out.println("Starting engine...");
