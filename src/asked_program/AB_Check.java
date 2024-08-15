@@ -3,9 +3,9 @@ package asked_program;
 public class AB_Check {
     public static void main(String[] args) {
         String str = "lane borrowed";
-
         System.out.println(checkAB(str));
     }
+
 
     private static boolean checkAB(String str) {
      char [] chars = str.toCharArray();
