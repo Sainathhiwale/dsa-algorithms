@@ -20,7 +20,7 @@ class Child extends Parent {
 public class MethodOverriding {
 
     public static void main(String[] args) {
-       Child obj = new Child();
-       obj.add(10,10);
+       Child child = new Child();
+       child.add(10,10);
     }
 }

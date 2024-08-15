@@ -13,7 +13,7 @@ class Addition{
 }
 public class MethodOverloading {
     public static void main(String[] args) {
-       Addition addition = new Addition();
+        Addition addition = new Addition();
         System.out.println(addition.add(10,10));
         System.out.println(addition.add(5.5,5.5));
         System.out.println(addition.add("Sainath"," Hiwale"));
